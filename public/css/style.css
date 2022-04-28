@@ -1,1 +1,49 @@
-body { background-color: lightblue; }
+body { 
+    background-color: lightblue; 
+    font-size: 35px;
+}
+
+input {
+    position:initial;
+    font-style: normal;
+    width: 149.5px;
+    padding: 15px 32px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration-color:none;
+    display: inline-block;
+    font-size: 25px;
+}
+
+input[value="="]{
+    
+    background-color:royalblue; border-color:royalblue; color:white;
+    border-color:royalblue
+}
+input[value="C"]{
+
+    background-color:darkgrey; border-color:darkgrey; 
+}
+
+input[value="+"]{
+    background-color:darkgrey; border-color:darkgrey; 
+}
+
+input[value="-"]{
+    background-color:darkgrey; border-color:darkgrey; 
+}
+
+input[value="/"]{
+    background-color:darkgrey; border-color:darkgrey; 
+}
+
+input[value="*"]{
+    background-color:darkgrey; border-color:darkgrey; 
+}
+
+
+#display{
+
+    width: 89%;
+    height: 10%;
+}
