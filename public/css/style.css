@@ -20,6 +20,11 @@ input[value="="]{
     background-color:royalblue; border-color:royalblue; color:white;
     border-color:royalblue
 }
+
+input [value="."]{
+    background-color:darkgrey; border-color:darkgrey; 
+}
+
 input[value="C"]{
 
     background-color:darkgrey; border-color:darkgrey; 
@@ -42,8 +47,10 @@ input[value="*"]{
 }
 
 
+
 #display{
 
     width: 89%;
     height: 10%;
+    background-color:white; border-color:darkgrey; 
 }
